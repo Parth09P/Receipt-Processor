@@ -17,7 +17,7 @@ Follow the steps below to get started with the Receipt Processor API:
 
 ```
 git clone Parth09P/Receipt-Processor
-cd receipt-processor
+cd Receipt-Processor
 ```
 ### Running the application:
 
