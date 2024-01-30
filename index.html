@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Processor API</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .center-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #666;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #333;
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        a {
+            color: #007BFF;
+        }
+
+        .api-info {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-container">
+        <h1>Welcome to Receipt Processor API</h1>
+        <p>This API allows you to process receipts and retrieve points.</p>
+    
+
+    <div class="api-info">
+        <h2>1. Process Receipt</h2>
+        <p>
+            This API processes a receipt and calculates the points based on specified rules.
+            <br>
+            <strong>Endpoint:</strong> <code>/receipts/process</code> - POST
+        </p>
+
+        <h2>2. Get Points</h2>
+        <p>
+            Use this API to retrieve points for a previously processed receipt using its unique ID.
+            <br>
+            <strong>Endpoint:</strong> <code>/receipts/{receipt_id}/points</code> - GET
+        </p>
+
+        
+    </div>
+    <p>For testing the APIs, visit the <a href="/docs">FastAPI Docs</a>.</p>
+</div>  
+</body>
+</html>
